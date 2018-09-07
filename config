@@ -40,6 +40,10 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty
 
+# start a screenshot
+bindsym $mod+p exec escrotum --select --clipboard
+bindsym $mod+Shift+p exec escrotum --select
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
