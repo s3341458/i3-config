@@ -183,6 +183,9 @@ bar {
         status_command i3status
 }
 
+# Setup background image
+exec_always feh --bg-scale ~/.assets/desktop_background_image.jpg
+
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)
