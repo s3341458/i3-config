@@ -175,6 +175,11 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+# voice management
+bindsym XF86AudioRaiseVolume exec "amixer -q sset Master,0 2+ unmute"
+bindsym XF86AudioLowerVolume exec "amixer -q sset Master,0 2- unmute"
+bindsym XF86AudioMute exec "amixer -q sset Master,0 toggle"
+
 bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
